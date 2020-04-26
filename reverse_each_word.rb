@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def reverse_each_word(string)
   reversed_array_of_words = []
@@ -9,9 +9,6 @@ def reverse_each_word(string)
   i.reverse
   reversed_array_of_words << i
   }
-binding.pry
   final_string = reversed_array_of_words.join(" ")
-  return final_string
+  puts final_string
 end
-
-puts "test"
