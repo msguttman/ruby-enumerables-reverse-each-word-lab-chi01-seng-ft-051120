@@ -1,4 +1,7 @@
 
+my_name = "matt"
+puts my_name.reverse
+
 
 def reverse_each_word(string)
   reversed_array_of_words = []
